@@ -1,0 +1,17 @@
+{   "TAG": "recycle-bin",
+    "logLocation" : "log",
+    "jwtPrivateKey": "x-recyclebin-jwtPrivateKey",
+    "logFile": "log/recyclebin.log",
+    "uncaughtLogFile": "log/uncaught_exceptions.log",
+    "crmAuthenticateEndPoint": "https://services.anakiklosistospiti.gr/reciget_webapi/api/Token",
+    "crmWeightEndPoint": "https://services.anakiklosistospiti.gr/reciget_webapi/api/Reciget/BulkWorkerScan",
+    "apiPath": "/api/v1",
+    "mqttAddress": "mqtts://iot.recyclebin.mnss.eu",
+    "mqttPort": 443,
+    "mqttUsername": "iot_recycle_vvv",
+    "mqttPassword": "!RBS_PWD_vvv$",
+    "db":"mongodb://192.168.10.86/recyclebin_test?replicaSet=rs0",
+    "kafkaBroker": "192.168.10.86:9092",
+    "kafkaTopic": "crms-test-topic",
+    "mqttTopic": "iotrecycle4"
+}
